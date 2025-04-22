@@ -1,6 +1,6 @@
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 # 🚌 SSE Assistant
 
