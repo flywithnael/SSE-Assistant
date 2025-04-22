@@ -1,107 +1,96 @@
 <!DOCTYPE html><html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SSE Assistant</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400&family=Roboto&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-color: #030035;
-      --accent-color: #DBE64A;
-      --title-font: 'Montserrat', sans-serif;
-      --subtitle-font: 'Poppins', sans-serif;
-      --body-font: 'Roboto', sans-serif;
-    }body {
+      --primary: #DBE64A;
+      --background: #030035;
+      --white: #FFFFFF;
+    }* {
   margin: 0;
-  background-color: var(--bg-color);
-  color: white;
-  font-family: var(--body-font);
-  scroll-behavior: smooth;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background);
+  color: var(--white);
+  overflow-x: hidden;
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 2rem;
-  background-color: #040044;
+  background-color: var(--background);
+  border-bottom: 2px solid var(--primary);
+}
+
+.logo {
+  height: 60px;
+}
+
+.welcome {
   text-align: center;
-  animation: fadeInDown 1s ease-out;
+  padding: 5rem 2rem;
+  animation: fadeIn 1.5s ease;
 }
 
-header h1 {
-  font-family: var(--title-font);
-  color: var(--accent-color);
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-header p {
-  font-family: var(--subtitle-font);
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-}
-
-section {
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
-  animation: fadeInUp 1s ease-out;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
 }
 
 h2 {
-  font-family: var(--title-font);
-  color: var(--accent-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.8rem 1.6rem;
-  background-color: var(--accent-color);
-  color: #030035;
+p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: var(--primary);
+  color: var(--background);
   text-decoration: none;
   font-weight: bold;
-  border-radius: 8px;
-  transition: transform 0.2s;
+  border-radius: 12px;
+  transition: background-color 0.3s;
 }
 
-.button:hover {
-  transform: scale(1.05);
+.btn:hover {
+  background-color: #c5cf3e;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem;
-  font-size: 0.9rem;
-  color: #aaa;
-}
-
-@keyframes fadeInDown {
-  from { transform: translateY(-20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes fadeInUp {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
   </style>
 </head>
 <body>
   <header>
-    <h1>SSE Assistant</h1>
-    <p>L'assistant pour conducteurs de Seine Sud-Est. Non affilié à SSE, Confluens, AMS ou Citinéo.</p>
-  </header>  <section>
-    <h2>Fonctionnalités principales</h2>
-    <ul>
-      <li>Affichage des arrêts en temps réel</li>
-      <li>SAE intégré</li>
-      <li>Commandes clavier pour chaque ligne</li>
-      <li>Support des couleurs et logos de lignes</li>
-      <li>Mode simplifié pour petits écrans</li>
-    </ul>
-    <a class="button" href="https://github.com/flywithnael/SSE-Assistant" target="_blank">Voir sur GitHub</a>
-  </section>  <footer>
-    © 2025 - Naël MOGHIR - Projet libre et indépendant
-  </footer>
+    <img src="logo.png" alt="SSE Assistant Logo" class="logo">
+    <span>SSE Assistant</span>
+  </header>  <section class="welcome">
+    <h1>Bienvenue sur SSE Assistant</h1>
+    <h2>Votre compagnon de route sur le réseau Seine Sud-Est</h2>
+    <p>Une interface claire, des fonctionnalités puissantes, et un projet indépendant pour améliorer l'expérience des conducteurs et passionnés de transport. Ce projet n'est affilié à aucune entité officielle.</p>
+    <a href="https://github.com/flywithnael/SSE-Assistant" class="btn">Voir le projet sur GitHub</a>
+  </section>
 </body>
 </html>
