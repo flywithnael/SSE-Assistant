@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Version PRO](https://img.shields.io/badge/Version-Pro-red.svg)
 
-# SSE Assistant — 
-# Version PRO
+# SSE Assistant-Version PRO
 
 **SSE Assistant PRO** est une version avancée de l’application développée pour les conducteurs et passionnés du réseau **Seine Sud-Est (SSE)**.  
 Elle propose des **fonctionnalités exclusives**, une **interface enrichie**, et une **expérience plus poussée**, pensée pour les utilisateurs exigeants.
