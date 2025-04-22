@@ -1,4 +1,4 @@
-![SSE Assistant](banner.png)  
+km de![SSE Assistant](banner.png)  
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 
@@ -69,9 +69,9 @@ La version `.exe` sera disponible dans l’onglet **Releases** dès la v1.0.
 ---
 
 ## 🤝 Contribuer
-
+![Nouveau](https://img.shields.io/badge/Nouveau-!-blue.svg)
 Envie d’aider ou de proposer une idée ?
-Ouvre une issue, une pull request, ou envoie un p’tit message via Discord :
+Rends-toi dans l'espace Discussions ou envoie un p’tit message via Discord :
 **@flywithnael**
 
 ---
