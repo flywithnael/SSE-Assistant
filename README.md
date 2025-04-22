@@ -1,4 +1,4 @@
-![SSE Assistant PRO](banner-pro.png)
+![SSE Assistant PRO](banner-pro-rounded.png)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Version PRO](https://img.shields.io/badge/Version-Pro-red.svg)
