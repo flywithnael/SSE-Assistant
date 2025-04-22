@@ -1,4 +1,6 @@
 ![SSE Assistant](banner.png)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 # SSE Assistant
 
 **SSE Assistant** est un outil développé pour accompagner les conducteurs et joueurs du réseau Seine Sud-Est (SSE) dans leurs trajets.  
