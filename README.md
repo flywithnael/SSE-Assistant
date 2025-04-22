@@ -70,6 +70,7 @@ La version `.exe` sera disponible dans l’onglet **Releases** dès la v1.0.
 
 ## 🤝 Contribuer
 ![Nouveau](https://img.shields.io/badge/Nouveau-!-blue.svg)
+
 Envie d’aider ou de proposer une idée ?
 Rends-toi dans l'espace Discussions ou envoie un p’tit message via Discord :
 **@flywithnael**
