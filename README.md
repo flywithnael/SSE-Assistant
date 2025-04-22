@@ -25,6 +25,7 @@ Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore 
 - [🤝 Contribuer](#-contribuer)
 - [📩 Contact](#-contact)
 - [📄 Licence](#-licence)
+- [🚀 Version PRO](#-version-pro)
 
 ---
 
@@ -96,3 +97,11 @@ Mail : translinkstudios@proton.me
 Ce projet est sous licence MIT.
 Tu peux l’utiliser, l’améliorer ou le partager librement.
 Consulte le fichier LICENSE pour les détails.
+
+---
+
+## 🚀 Version PRO
+
+Vous voulez une version plus avancée, avec plus de fonctionnalités, un design retravaillé et une expérience utilisateur améliorée ?
+
+➡️ [**Cliquez ici pour découvrir la branche PRO**](https://github.com/flywithnael/SSE-Assistant/tree/pro)
