@@ -79,6 +79,7 @@ Rends-toi dans l'espace Discussions ou envoie un p’tit message via Discord :
 ## 📩 Contact
 
 Développé par Naël MOGHIR
+
 *Projet personnel libre et non commercial.*
 
 Mail : translinkstudios@proton.me
