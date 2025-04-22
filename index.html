@@ -1,35 +1,82 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SSE Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Montserrat, sans-serif;
-      background: #f2f2f2;
+    * {
       margin: 0;
-      padding: 2em;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 2em;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #0C1366;
-    }
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }body {
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0C1366;
+}
+
+header p {
+  color: #555;
+  margin-top: 10px;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #0C1366;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+}
+
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>SSE Assistant</h1>
-    <p>Bienvenue sur le site officiel du projet !</p>
-    <p>Retrouvez ici toutes les informations, les dernières mises à jour et les liens utiles.</p>
-  </div>
+    <p>Un outil indépendant pour conducteurs et passionnés du réseau SSE</p>
+  </header>  <div class="content">
+    <h2>Fonctionnalités</h2>
+    <ul>
+      <li>Affichage en temps réel des arrêts d’une ligne</li>
+      <li>Commandes clavier par ligne</li>
+      <li>Interface simple avec Tkinter</li>
+      <li>Support du SAE</li>
+      <li>Lecture manuelle ou auto des arrêts</li>
+      <li>Mode simplifié</li>
+    </ul><h2>À propos</h2>
+<p>Ce projet n'est affilié à aucune entité officielle liée à SSE, Confluens, Citinéo ou AMS.</p>
+<p>Développé par Naël MOGHIR</p>
+
+  </div>  <footer>
+    &copy; 2025 SSE Assistant – Projet indépendant.
+  </footer>
 </body>
 </html>
