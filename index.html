@@ -1,10 +1,8 @@
 <!DOCTYPE html><html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SSE Assistant</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
@@ -12,93 +10,137 @@
       font-family: 'Roboto', sans-serif;
       background-color: #030035;
       color: #DBE64A;
-    }
-    header {
-      background-color: #030035;
-      padding: 2rem;
-      text-align: center;
-      animation: fadeIn 1s ease-in-out;
-    }
-    header h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-    header h2 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 1.5rem;
-      margin: 0;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      background-color: #02002c;
-      font-family: 'Poppins', sans-serif;
-      font-size: 1.1rem;
-    }
-    nav a {
-      color: #DBE64A;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-      animation: slideIn 0.8s ease-in-out;
-    }
-    .logo {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .logo img {
-      width: 150px;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    @keyframes slideIn {
-      from { transform: translateY(20px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
+      overflow-x: hidden;
+    }header {
+  background-color: #030035;
+  padding: 4rem 2rem;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #DBE64A;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: slideInDown 1.2s ease-in-out;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #030035;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: white;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+  animation: fadeInUp 1s ease forwards;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn {
+  background-color: #DBE64A;
+  color: #030035;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.2s ease;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background-color: #c9d743;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #02002a;
+  color: #aaa;
+}
+
   </style>
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="https://raw.githubusercontent.com/flywithnael/SSE-Assistant/main/banner.png" alt="Logo SSE Assistant" />
-    </div>
+    <img src="https://github.com/flywithnael/SSE-Assistant" alt="Logo SSE Assistant" style="max-width: 200px; margin-bottom: 2rem;">
     <h1>SSE Assistant</h1>
-    <h2>Outil indépendant pour les conducteurs et joueurs</h2>
+    <p>Un assistant complet pour conducteurs et joueurs du réseau Seine Sud-Est</p>
+    <a class="btn" href="https://github.com/flywithnael/SSE-Assistant" target="_blank">Voir le projet sur GitHub</a>
   </header>  <nav>
     <a href="#accueil">Accueil</a>
     <a href="#fonctionnalites">Fonctionnalités</a>
     <a href="#telechargement">Téléchargement</a>
     <a href="#contact">Contact</a>
   </nav>  <section id="accueil">
-    <h2>Bienvenue sur le site officiel de SSE Assistant</h2>
-    <p>SSE Assistant est un logiciel créé pour améliorer l'expérience des conducteurs dans les réseaux virtuels, avec une interface intuitive et utile.</p>
+    <h2>Bienvenue</h2>
+    <p>SSE Assistant est un logiciel conçu pour améliorer l'expérience de conduite virtuelle sur Roblox. Grâce à son interface intuitive, il permet un suivi fluide des arrêts, des commandes clavier, et bien plus encore.</p>
   </section>  <section id="fonctionnalites">
     <h2>Fonctionnalités</h2>
-    <ul>
-      <li>Affichage des arrêts par ligne</li>
-      <li>Commandes clavier associées</li>
-      <li>Support SAE</li>
-      <li>Mode simplifié</li>
-      <li>Personnalisation complète</li>
-    </ul>
+    <p>• Interface claire avec logos, couleurs par ligne<br>• Intégration du SAE (Système d’Aide à l’Exploitation)<br>• Commandes clavier affichées par ligne<br>• Lecture automatique ou manuelle des arrêts<br>• Mode simplifié pour écrans réduits</p>
   </section>  <section id="telechargement">
     <h2>Téléchargement</h2>
-    <p>Bientôt disponible en version .exe directement ici ou sur GitHub.</p>
+    <p>Les versions .exe seront disponibles prochainement dans l’onglet Releases sur GitHub.</p>
   </section>  <section id="contact">
     <h2>Contact</h2>
-    <p>Développé par Naël MOGHIR<br />Contact : translinkstudios@proton.me</p>
-  </section>
+    <p>Développé par Naël MOGHIR<br>Mail : translinkstudios@proton.me</p>
+  </section>  <footer>
+    © 2025 SSE Assistant – Projet indépendant non affilié à SSE, Confluens, Citinéo ou AMS.
+  </footer>
 </body>
 </html>
