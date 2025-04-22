@@ -1,111 +1,107 @@
-<!DOCTYPE html><html lang="fr"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SSE Assistant</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #030035;
-      color: #DBE64A;
-    }header {
-  background-color: #DBE64A;
-  color: #030035;
-  padding: 20px;
+    :root {
+      --bg-color: #030035;
+      --accent-color: #DBE64A;
+      --title-font: 'Montserrat', sans-serif;
+      --subtitle-font: 'Poppins', sans-serif;
+      --body-font: 'Roboto', sans-serif;
+    }body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: white;
+  font-family: var(--body-font);
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 2rem;
+  background-color: #040044;
   text-align: center;
-  font-size: 2rem;
+  animation: fadeInDown 1s ease-out;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #1c1c3a;
-  padding: 10px;
+header h1 {
+  font-family: var(--title-font);
+  color: var(--accent-color);
+  font-size: 2.5rem;
+  margin: 0;
 }
 
-nav button {
-  background: none;
-  border: none;
-  color: #DBE64A;
-  margin: 0 15px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
-nav button:hover {
-  color: #ffffff;
+header p {
+  font-family: var(--subtitle-font);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
 }
 
 section {
-  display: none;
-  padding: 30px;
-  max-width: 800px;
+  padding: 2rem;
+  max-width: 900px;
   margin: auto;
-}
-
-section.active {
-  display: block;
+  animation: fadeInUp 1s ease-out;
 }
 
 h2 {
-  color: #DBE64A;
+  font-family: var(--title-font);
+  color: var(--accent-color);
 }
 
-a {
-  color: #DBE64A;
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--accent-color);
+  color: #030035;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+@keyframes fadeInDown {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
   </style>
-</head><body>
-  <header>SSE Assistant</header>
-  <nav>
-    <button onclick="showTab('about')">A propos</button>
-    <button onclick="showTab('repo')">Dépôt GitHub</button>
-    <button onclick="showTab('releases')">Releases</button>
-  </nav>  <section id="about" class="active">
-    <h2>A propos</h2>
-    <p>SSE Assistant est un assistant pour les conducteurs/joueurs du réseau Seine Sud-Est (SSE). Ce site affiche les informations du projet GitHub de manière dynamique.</p>
-  </section>  <section id="repo">
-    <h2>Informations GitHub</h2>
-    <div id="repoInfo">Chargement...</div>
-  </section>  <section id="releases">
-    <h2>Dernières versions</h2>
-    <ul id="releaseList">Chargement...</ul>
-  </section>  <script>
-    const USER = 'flywithnael';
-    const REPO = 'SSE-Assistant';
-
-    function showTab(id) {
-      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
-    }
-
-    async function fetchRepoInfo() {
-      const res = await axios.get(`https://api.github.com/repos/${USER}/${REPO}`);
-      const data = res.data;
-      document.getElementById('repoInfo').innerHTML = `
-        <p><strong>Nom:</strong> ${data.name}</p>
-        <p><strong>Description:</strong> ${data.description}</p>
-        <p><strong>Stars:</strong> ${data.stargazers_count}</p>
-        <p><strong>Forks:</strong> ${data.forks_count}</p>
-        <p><a href="${data.html_url}" target="_blank">Voir sur GitHub</a></p>
-      `;
-    }
-
-    async function fetchReleases() {
-      const res = await axios.get(`https://api.github.com/repos/${USER}/${REPO}/releases`);
-      const list = document.getElementById('releaseList');
-      list.innerHTML = '';
-      res.data.forEach(release => {
-        const li = document.createElement('li');
-        li.innerHTML = `<strong>${release.name}</strong> - <a href="${release.html_url}" target="_blank">Voir</a>`;
-        list.appendChild(li);
-      });
-    }
-
-    fetchRepoInfo();
-    fetchReleases();
-  </script></body></html>
+</head>
+<body>
+  <header>
+    <h1>SSE Assistant</h1>
+    <p>L'assistant pour conducteurs de Seine Sud-Est. Non affilié à SSE, Confluens, AMS ou Citinéo.</p>
+  </header>  <section>
+    <h2>Fonctionnalités principales</h2>
+    <ul>
+      <li>Affichage des arrêts en temps réel</li>
+      <li>SAE intégré</li>
+      <li>Commandes clavier pour chaque ligne</li>
+      <li>Support des couleurs et logos de lignes</li>
+      <li>Mode simplifié pour petits écrans</li>
+    </ul>
+    <a class="button" href="https://github.com/flywithnael/SSE-Assistant" target="_blank">Voir sur GitHub</a>
+  </section>  <footer>
+    © 2025 - Naël MOGHIR - Projet libre et indépendant
+  </footer>
+</body>
+</html>
