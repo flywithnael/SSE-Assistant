@@ -1,3 +1,4 @@
+![SSE Assistant](banner.png)
 # SSE Assistant
 
 **SSE Assistant** est un outil développé pour accompagner les conducteurs et joueurs du réseau Seine Sud-Est (SSE) dans leurs trajets.  
