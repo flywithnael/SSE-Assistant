@@ -72,14 +72,14 @@ La version `.exe` sera disponible dans l’onglet **Releases** dès la v1.0.
 
 Envie d’aider ou de proposer une idée ?
 Ouvre une issue, une pull request, ou envoie un p’tit message via Discord :
-@flywithnael
+**@flywithnael**
 
 ---
 
 ## 📩 Contact
 
 Développé par Naël MOGHIR
-Projet personnel libre et non commercial.
+*Projet personnel libre et non commercial.*
 
 Mail : translinkstudios@proton.me
 
