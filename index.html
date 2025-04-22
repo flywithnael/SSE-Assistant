@@ -1,96 +1,104 @@
 <!DOCTYPE html><html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SSE Assistant</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --primary: #DBE64A;
-      --background: #030035;
-      --white: #FFFFFF;
-    }* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--background);
-  color: var(--white);
-  overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
-  background-color: var(--background);
-  border-bottom: 2px solid var(--primary);
-}
-
-.logo {
-  height: 60px;
-}
-
-.welcome {
-  text-align: center;
-  padding: 5rem 2rem;
-  animation: fadeIn 1.5s ease;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  color: var(--primary);
-  margin-bottom: 1rem;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-.btn {
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background-color: var(--primary);
-  color: var(--background);
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 12px;
-  transition: background-color 0.3s;
-}
-
-.btn:hover {
-  background-color: #c5cf3e;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #030035;
+      color: #DBE64A;
+    }
+    header {
+      background-color: #030035;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #02002c;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.1rem;
+    }
+    nav a {
+      color: #DBE64A;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: slideIn 0.8s ease-in-out;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .logo img {
+      width: 150px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="SSE Assistant Logo" class="logo">
-    <span>SSE Assistant</span>
-  </header>  <section class="welcome">
-    <h1>Bienvenue sur SSE Assistant</h1>
-    <h2>Votre compagnon de route sur le réseau Seine Sud-Est</h2>
-    <p>Une interface claire, des fonctionnalités puissantes, et un projet indépendant pour améliorer l'expérience des conducteurs et passionnés de transport. Ce projet n'est affilié à aucune entité officielle.</p>
-    <a href="https://github.com/flywithnael/SSE-Assistant" class="btn">Voir le projet sur GitHub</a>
+    <div class="logo">
+      <img src="logo.png" alt="Logo SSE Assistant" />
+    </div>
+    <h1>SSE Assistant</h1>
+    <h2>Outil indépendant pour les conducteurs et joueurs</h2>
+  </header>  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#fonctionnalites">Fonctionnalités</a>
+    <a href="#telechargement">Téléchargement</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="accueil">
+    <h2>Bienvenue sur le site officiel de SSE Assistant</h2>
+    <p>SSE Assistant est un logiciel créé pour améliorer l'expérience des conducteurs dans les réseaux virtuels, avec une interface intuitive et utile.</p>
+  </section>  <section id="fonctionnalites">
+    <h2>Fonctionnalités</h2>
+    <ul>
+      <li>Affichage des arrêts par ligne</li>
+      <li>Commandes clavier associées</li>
+      <li>Support SAE</li>
+      <li>Mode simplifié</li>
+      <li>Personnalisation complète</li>
+    </ul>
+  </section>  <section id="telechargement">
+    <h2>Téléchargement</h2>
+    <p>Bientôt disponible en version .exe directement ici ou sur GitHub.</p>
+  </section>  <section id="contact">
+    <h2>Contact</h2>
+    <p>Développé par Naël MOGHIR<br />Contact : translinkstudios@proton.me</p>
   </section>
 </body>
 </html>
