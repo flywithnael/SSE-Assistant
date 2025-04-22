@@ -1,98 +1,55 @@
-![SSE Assistant](banner-rounded.png)  
-![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![SSE Assistant PRO](banner-pro.png)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Version PRO](https://img.shields.io/badge/Version-Pro-red.svg)
 
-**Disponible sur les plateformes suivantes :** 
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+# SSE Assistant — Version PRO
 
-# 🚌 SSE Assistant
+**SSE Assistant PRO** est une version avancée de l’application développée pour les conducteurs et passionnés du réseau **Seine Sud-Est (SSE)**.  
+Elle propose des **fonctionnalités exclusives**, une **interface enrichie**, et une **expérience plus poussée**, pensée pour les utilisateurs exigeants.
 
-**SSE Assistant** est un outil conçu pour accompagner les conducteurs et joueuses/joueurs du réseau **Seine Sud-Est (SSE)** dans leurs trajets.
-
-Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore dans une interface claire, efficace et personnalisée selon la ligne.
-
-> ⚠️ **Ce projet est entièrement indépendant.**  
-> Il **n’est affilié à aucune entité officielle** liée à **Seine Sud-Est, Confluens, Citinéo ou AMS**.
+> Cette branche correspond à la version **premium** du projet. Elle peut contenir des modules protégés ou réservés à certains utilisateurs.
 
 ---
 
-## 🧠 Sommaire
+## **Fonctionnalités exclusives**
 
-- [✨ Fonctionnalités](#-fonctionnalités)
-- [⚙️ Installation](#-installation)
-- [▶️ Utilisation](#️-utilisation)
-- [🖼️ Captures d’écran](#️-captures-décran)
-- [🤝 Contribuer](#-contribuer)
-- [📩 Contact](#-contact)
-- [📄 Licence](#-licence)
-
----
-
-## ✨ Fonctionnalités
-
-- Interface Tkinter simple et fluide
-- 📍 Affichage des arrêts d’une ligne en **temps réel**
-- 🖼️ Logos + couleurs personnalisées pour chaque ligne
-- ⌨️ Commandes clavier configurées par ligne
-- 🚦 Lecture **automatique ou manuelle** des arrêts
-- 🛰️ Intégration **SAE**
-- 🪄 Mode simplifié pour petits écrans
-- 🎯 Affichage des destinations
-- ⚡ Bientôt disponible en `.exe` sans Python !
+- ✅ Interface plus dynamique avec animations fluides
+- ✅ SAE amélioré avec retours visuels en temps réel
+- ✅ Mode nuit intégré
+- ✅ Générateur de feuilles de route
+- ✅ Accès anticipé aux nouvelles lignes
+- ✅ Intégration GitHub automatique pour mise à jour
+- ✅ Notifications personnalisées dans l’interface
 
 ---
 
-## ⚙️ Installation
+## **Accès à la version PRO**
 
-La version `.exe` sera disponible dans l’onglet **Releases** dès la v1.0.
-
----
-
-## ▶️ Utilisation
-
-1. Lance l'appli
-
-
-2. Choisis la ligne + destination
-
-
-3. Utilise les commandes pour faire défiler les arrêts
-
-
-4. Suis ton trajet en mode manuel ou auto !
-
+- Certaines parties du code peuvent être **obfusquées** ou protégées.
+- Les `.exe` distribués ne seront **pas libres**.
+- Pour plus d’infos ou pour obtenir un accès, contactez : **translinkstudios@proton.me**
 
 ---
 
-## 🖼️ Captures d’écran
+## **Attention**
 
-(à venir très bientôt !)
+> Cette version n’est **toujours pas affiliée** à une quelconque organisation officielle liée à SSE, Citinéo ou Confluens.
 
-
----
-
-## 🤝 Contribuer
-![Nouveau](https://img.shields.io/badge/Nouveau-!-blue.svg)
-
-Envie d’aider ou de proposer une idée ?
-Rends-toi dans l'espace Discussions ou envoie un p’tit message via Discord :
-**@flywithnael**
+Elle est distribuée dans une logique de **passion**, de **simulation** et d'**outil personnel**.
 
 ---
 
-## 📩 Contact
+## **Contact**
 
-Développé par Naël MOGHIR
-
-*Projet personnel libre et non commercial.*
-
-Mail : translinkstudios@proton.me
-
+**Développement** : Naël MOGHIR  
+**Studio** : TransLink Studios  
+**Mail** : translinkstudios@proton.me  
+**Site** : [sseassistant.github.io](https://flywithnael.github.io/SSE-Assistant)
 
 ---
 
-## 📄 Licence
+## **Contribuer ?**
 
-Ce projet est sous licence MIT.
-Tu peux l’utiliser, l’améliorer ou le partager librement.
-Consulte le fichier LICENSE pour les détails.
+L’accès au développement de cette version est **restreint**.  
+Pour proposer une idée, passer par les **Discussions GitHub** du projet.
