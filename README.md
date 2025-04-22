@@ -1,50 +1,93 @@
-![SSE Assistant](banner.png)
+![SSE Assistant](banner.png)  
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
-# SSE Assistant
 
-**SSE Assistant** est un outil développé pour accompagner les conducteurs et joueurs du réseau Seine Sud-Est (SSE) dans leurs trajets.  
-Il permet de suivre les arrêts, les commandes clavier, les lignes, les destinations, et plus encore via une interface claire et interactive.
+# 🚌 SSE Assistant
 
-> Ce projet est **entièrement indépendant** et **n'est affilié à aucune entité officielle** liée à SSE, Confluens, Citinéo ou AMS.
+**SSE Assistant** est un outil conçu pour accompagner les conducteurs et joueuses/joueurs du réseau **Seine Sud-Est (SSE)** et du **SAE** (Système d’Aide à l’Exploitation) dans leurs trajets.
 
----
+Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore dans une interface claire, efficace et personnalisée selon la ligne.
 
-## Fonctionnalités
-
-- Interface Tkinter simple et intuitive
-- Affichage en temps réel des arrêts d’une ligne
-- Commandes clavier associées à chaque ligne
-- Logo et couleur pour chaque ligne
-- Prise en charge de SAE (Système d'Aide à l'Exploitation)
-- Lecture manuelle ou automatique des arrêts
-- Mode simplifié pour les petits écrans
+> ⚠️ **Ce projet est entièrement indépendant.**  
+> Il **n’est affilié à aucune entité officielle** liée à **Seine Sud-Est, Confluens, Citinéo ou AMS**.
 
 ---
 
-## Installation
+## 🧠 Sommaire
 
-L’application sera disponible en `.exe` (sans dépendance Python) dans la section **Releases** dès la première version stable.
-
----
-
-## Captures d’écran
-
-*(à venir)*
-
----
-
-## Contribuer
-
-Les idées, suggestions et contributions sont les bienvenues !  
-N'hésitez pas à ouvrir une issue ou une pull request.
+- [✨ Fonctionnalités](#-fonctionnalités)
+- [⚙️ Installation](#-installation)
+- [▶️ Utilisation](#️-utilisation)
+- [🖼️ Captures d’écran](#️-captures-décran)
+- [🤝 Contribuer](#-contribuer)
+- [📩 Contact](#-contact)
+- [📄 Licence](#-licence)
 
 ---
 
-## Contact
+## ✨ Fonctionnalités
 
-Développé par Naël MOGHIR  
-Ce projet est libre et non commercial.  
+- Interface Tkinter simple et fluide
+- 📍 Affichage des arrêts d’une ligne en **temps réel**
+- 🖼️ Logos + couleurs personnalisées pour chaque ligne
+- ⌨️ Commandes clavier configurées par ligne
+- 🚦 Lecture **automatique ou manuelle** des arrêts
+- 🛰️ Intégration **SAE**
+- 🪄 Mode simplifié pour petits écrans
+- 🎯 Affichage des destinations
+- ⚡ Bientôt disponible en `.exe` sans Python !
+
+---
+
+## ⚙️ Installation
+
+La version `.exe` sera disponible dans l’onglet **Releases** dès la v1.0.
+
+---
+
+## ▶️ Utilisation
+
+1. Lance l'appli
+
+
+2. Choisis la ligne + destination
+
+
+3. Utilise les commandes pour faire défiler les arrêts
+
+
+4. Suis ton trajet en mode manuel ou auto !
+
+
+---
+
+## 🖼️ Captures d’écran
+
+(à venir très bientôt !)
+
+
+---
+
+## 🤝 Contribuer
+
+Envie d’aider ou de proposer une idée ?
+Ouvre une issue, une pull request, ou envoie un p’tit message via Discord :
+@flywithnael
+
+---
+
+## 📩 Contact
+
+Développé par Naël MOGHIR
+Projet personnel libre et non commercial.
+
 Mail : translinkstudios@proton.me
 
+
 ---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.
+Tu peux l’utiliser, l’améliorer ou le partager librement.
+Consulte le fichier LICENSE pour les détails.
