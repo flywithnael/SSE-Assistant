@@ -4,7 +4,7 @@
 
 # 🚌 SSE Assistant
 
-**SSE Assistant** est un outil conçu pour accompagner les conducteurs et joueuses/joueurs du réseau **Seine Sud-Est (SSE)** et du **SAE** (Système d’Aide à l’Exploitation) dans leurs trajets.
+**SSE Assistant** est un outil conçu pour accompagner les conducteurs et joueuses/joueurs du réseau **Seine Sud-Est (SSE)** dans leurs trajets.
 
 Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore dans une interface claire, efficace et personnalisée selon la ligne.
 
