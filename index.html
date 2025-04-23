@@ -1,103 +1,115 @@
 <!DOCTYPE html><html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SSE Assistant</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #030035;
-      color: white;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSE Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background-color: #030035;
+        color: #DBE64A;
+        overflow-x: hidden;
+      }header {
+    text-align: center;
+    padding: 3rem 1rem;
+    animation: fadeIn 1s ease-in;
+  }
+
+  header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    animation: slideDown 1s ease-out;
+  }
+
+  header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    animation: fadeIn 2s ease-in;
+  }
+
+  .button-container {
+    margin-top: 2rem;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+
+  .btn {
+    background-color: #DBE64A;
+    color: #030035;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    background-color: #f6f07b;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
     }
-    header {
-      background-color: #030035;
-      padding: 2rem;
-      text-align: center;
+    to {
+      opacity: 1;
     }
-    header h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3rem;
-      margin: 0;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
     }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 1rem;
+    to {
+      transform: translateY(0);
+      opacity: 1;
     }
-    nav a {
-      color: #DBE64A;
-      text-decoration: none;
-      font-family: 'Poppins', sans-serif;
-      font-size: 1.1rem;
-      transition: color 0.3s;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
     }
-    nav a:hover {
-      color: white;
+    to {
+      transform: translateY(0);
+      opacity: 1;
     }
-    section {
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    section h2 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-    section p {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .btn-pro {
-      background-color: #DBE64A;
-      color: #030035;
-      padding: 1rem 2rem;
-      font-weight: bold;
-      font-size: 1.2rem;
-      border-radius: 1rem;
-      transition: 0.3s ease;
-      text-decoration: none;
-      display: inline-block;
-      font-family: 'Poppins', sans-serif;
-      margin-top: 2rem;
-    }
-    .btn-pro:hover {
-      background-color: #cdd755;
-    }
-    footer {
-      background-color: #030035;
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>SSE Assistant</h1>
-    <nav>
-      <a href="#accueil">Accueil</a>
-      <a href="#fonctionnalites">Fonctionnalités</a>
-      <a href="#pro">Version Pro</a>
-      <a href="https://github.com/flywithnael/SSE-Assistant" target="_blank">GitHub</a>
-    </nav>
-  </header>  <section id="accueil">
-    <h2>Bienvenue sur SSE Assistant</h2>
-    <p>Un assistant intelligent pour conducteurs et passionnés de transports. Visualisez vos arrêts, suivez vos commandes, et bien plus.</p>
-  </section>  <section id="fonctionnalites">
-    <h2>Fonctionnalités</h2>
-    <p>SSE Assistant vous permet de consulter les arrêts en direct, d’utiliser des raccourcis clavier personnalisés, et de visualiser les lignes de bus avec leur logo. Un outil pratique, rapide et accessible.</p>
-  </section>  <section id="pro">
-    <h2>Passez à la version Pro</h2>
-    <p>Débloquez des fonctionnalités exclusives et bénéficiez d’une expérience encore plus complète avec SSE Assistant Pro.</p>
-    <a href="https://payhip.com/b/dFDe8" target="_blank" class="btn-pro">S'abonner maintenant</a>
-  </section>  <footer>
-    &copy; 2025 SSE Assistant - Propulsé par TransLink Studios
-  </footer>
-</body>
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+</style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenue sur SSE Assistant</h1>
+      <p>Votre outil compagnon pour gérer vos trajets sur le réseau SSE.</p>
+      <div class="button-container">
+        <a href="https://payhip.com/b/dFDe8" target="_blank">
+          <button class="btn">Accéder à la version PRO</button>
+        </a>
+      </div>
+    </header>
+    <footer>
+      © 2025 TransLink Studios — Tous droits réservés.
+    </footer>
+  </body>
 </html>
