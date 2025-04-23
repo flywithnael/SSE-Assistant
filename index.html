@@ -1,115 +1,149 @@
-<!DOCTYPE html><html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSE Assistant</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400&family=Roboto:wght@400&display=swap" rel="stylesheet">
     <style>
-      body {
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        background-color: #030035;
-        color: #DBE64A;
-        overflow-x: hidden;
-      }header {
-    text-align: center;
-    padding: 3rem 1rem;
-    animation: fadeIn 1s ease-in;
-  }
-
-  header h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    margin: 0;
-    animation: slideDown 1s ease-out;
-  }
-
-  header p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    animation: fadeIn 2s ease-in;
-  }
-
-  .button-container {
-    margin-top: 2rem;
-    animation: fadeInUp 1.5s ease-in-out;
-  }
-
-  .btn {
-    background-color: #DBE64A;
-    color: #030035;
-    font-family: 'Poppins', sans-serif;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s;
-  }
-
-  .btn:hover {
-    transform: scale(1.05);
-    background-color: #f6f07b;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideDown {
-    from {
-      transform: translateY(-50px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-  @keyframes fadeInUp {
-    from {
-      transform: translateY(30px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-  footer {
-    text-align: center;
-    padding: 2rem;
-    font-size: 0.9rem;
-    color: #aaa;
-  }
-</style>
-
-  </head>
-  <body>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #030035;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #DBE64A;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content: space-between;
+        }
+        header img {
+            width: 50px;
+            height: auto;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            margin-left: 10px;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        nav a {
+            font-family: 'Poppins', sans-serif;
+            color: #DBE64A;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            background-color: #030035;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #2a1a73;
+        }
+        .container {
+            padding: 20px;
+        }
+        .main-title {
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            color: #DBE64A;
+        }
+        .sub-title {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .description {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.1rem;
+        }
+        .cta-button {
+            display: block;
+            width: 250px;
+            margin: 30px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #DBE64A;
+            color: #030035;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .cta-button:hover {
+            background-color: #2a1a73;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #030035;
+            color: white;
+        }
+        footer a {
+            color: #DBE64A;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <h1>Bienvenue sur SSE Assistant</h1>
-      <p>Votre outil compagnon pour gérer vos trajets sur le réseau SSE.</p>
-      <div class="button-container">
-        <a href="https://payhip.com/b/dFDe8" target="_blank">
-          <button class="btn">Accéder à la version PRO</button>
-        </a>
-      </div>
+        <img src="logo.png" alt="SSE Assistant Logo">
+        <h1>SSE Assistant</h1>
     </header>
-    <footer>
-      © 2025 TransLink Studios — Tous droits réservés.
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#description">Description</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="accueil">
+        <h2 class="main-title">Bienvenue sur SSE Assistant</h2>
+        <p class="sub-title">Suivez vos trajets en toute simplicité</p>
+        <p class="description">
+            SSE Assistant est un outil développé pour accompagner les conducteurs et joueurs du réseau
+            Seine Sud-Est (SSE). Suivez vos arrêts, lignes, destinations et bien plus, le tout dans une interface simple et intuitive.
+        </p>
+        <a href="https://payhip.com/b/dFDe8" class="cta-button">Obtenir la version Pro</a>
+    </div>
+
+    <div class="container" id="description">
+        <h2 class="main-title">Description</h2>
+        <p>
+            SSE Assistant vous permet de gérer vos trajets, d'afficher les arrêts en temps réel, et d'avoir des commandes clavier
+            simples pour chaque ligne. Il intègre également un système d'aide à l'exploitation (SAE) pour une utilisation professionnelle.
+        </p>
+    </div>
+
+    <div class="container" id="features">
+        <h2 class="main-title">Fonctionnalités</h2>
+        <ul>
+            <li>Interface Tkinter simple et intuitive</li>
+            <li>Affichage des arrêts en temps réel</li>
+            <li>Commandes clavier associées à chaque ligne</li>
+            <li>Prise en charge du SAE (Système d'Aide à l'Exploitation)</li>
+            <li>Mode simplifié pour petits écrans</li>
+        </ul>
+    </div>
+
+    <footer id="contact">
+        <p>Développé par Naël MOGHIR</p>
+        <p>Contactez-nous à : <a href="mailto:translinkstudios@proton.me">translinkstudios@proton.me</a></p>
+        <p><a href="https://github.com/flywithnael/SSE-Assistant" target="_blank">Visitez notre GitHub</a></p>
     </footer>
-  </body>
+</body>
 </html>
