@@ -105,3 +105,5 @@ Consulte le fichier LICENSE pour les détails.
 Vous voulez une version plus avancée, avec plus de fonctionnalités, un design retravaillé et une expérience utilisateur améliorée ?
 
 ➡️ [**Cliquez ici pour découvrir la branche PRO**](https://github.com/flywithnael/SSE-Assistant/tree/pro)
+
+![image](https://github-readme-stats.vercel.app/api/top-langs/?username=flywithnael)
