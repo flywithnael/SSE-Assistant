@@ -1,7 +1,7 @@
 [**Cliquez ici pour revenir à la branche principale**](https://github.com/flywithnael/SSE-Assistant/tree/main)
 ![SSE Assistant PRO](banner-pro-rounded.png)
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Version PRO](https://img.shields.io/badge/Version-Pro-red.svg)
 
 # SSE Assistant — **PRO**
