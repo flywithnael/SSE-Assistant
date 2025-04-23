@@ -26,6 +26,7 @@ Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore 
 - [📩 Contact](#-contact)
 - [📄 Licence](#-licence)
 - [🚀 Version PRO](#-version-pro)
+- [#️⃣ Languages utilisés][#-languages]
 
 ---
 
@@ -105,5 +106,9 @@ Consulte le fichier LICENSE pour les détails.
 Vous voulez une version plus avancée, avec plus de fonctionnalités, un design retravaillé et une expérience utilisateur améliorée ?
 
 ➡️ [**Cliquez ici pour découvrir la branche PRO**](https://github.com/flywithnael/SSE-Assistant/tree/pro)
+
+---
+
+## #️⃣ Languages utilisés
 
 ![image](https://github-readme-stats.vercel.app/api/top-langs/?username=flywithnael)
