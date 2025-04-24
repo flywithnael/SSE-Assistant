@@ -4,6 +4,7 @@
 
 **Disponible sur les plateformes suivantes :** 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Statut](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/flywithnael/SSE-Assistant/main/status.json)
 
 # 🚌 SSE Assistant
 
