@@ -1,4 +1,4 @@
-![statut](statut-dev-pause.svg)
+![statut](statut-dev-maintenance.svg)
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
