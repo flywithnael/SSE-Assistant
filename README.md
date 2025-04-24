@@ -1,4 +1,3 @@
-![Activity Graphic](https://github-readme-activity-graph.vercel.app/graph?username=flywithnael&theme=tokyo-night)
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
@@ -27,7 +26,7 @@ Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore 
 - [📩 Contact](#-contact)
 - [📄 Licence](#-licence)
 - [🚀 Version PRO](#-version-pro)
-- [#️⃣ Languages utilisés](#-languages-utilisés)
+- [#️⃣ Autres infos](#-autres-infos)
 
 ---
 
@@ -110,6 +109,7 @@ Vous voulez une version plus avancée, avec plus de fonctionnalités, un design 
 
 ---
 
-## #️⃣ Languages utilisés
+## #️⃣ Autres infos
 
-![image](https://github-readme-stats.vercel.app/api/top-langs/?username=flywithnael)
+![image](https://github-readme-stats.vercel.app/api/top-langs/?username=flywithnael&theme=tokyo-night)
+![Activity Graphic](https://github-readme-activity-graph.vercel.app/graph?username=flywithnael&theme=tokyo-night)
