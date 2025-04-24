@@ -2,11 +2,11 @@
   <style>
     .text {
       font-family: 'Segoe UI', 'Roboto', sans-serif;
-      font-size: 24px;
+      font-size: 28px;
       fill: #DBE64A;
     }
     .dot {
-      font-size: 32px;
+      font-size: 48px;
       animation: blink 1.5s infinite;
     }
     .dot:nth-child(2) { animation-delay: 0.3s; }
@@ -19,33 +19,7 @@
     }
   </style>
 
-  <rect x="5" y="5" rx="15" ry="15" width="390" height="70" fill="#030035" />
-
-  <text x="50%" y="50%" text-anchor="middle" class="text" dominant-baseline="middle">
-    Dev en cours<tspan class="dot">.</tspan><tspan class="dot">.</tspan><tspan class="dot">.</tspan>
-  </text>
-</svg><svg width="400" height="80" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .text {
-      font-family: 'Montserrat', 'Roboto', sans-serif;
-      font-size: 24px;
-      fill: #DBE64A;
-    }
-    .dot {
-      font-size: 32px;
-      animation: blink 1.5s infinite;
-    }
-    .dot:nth-child(2) { animation-delay: 0.3s; }
-    .dot:nth-child(3) { animation-delay: 0.6s; }
-
-    @keyframes blink {
-      0% { opacity: 0; }
-      50% { opacity: 1; }
-      100% { opacity: 0; }
-    }
-  </style>
-
-  <rect x="5" y="5" rx="15" ry="15" width="390" height="70" fill="#030035" />
+  <rect x="5" y="5" rx="25" ry="25" width="390" height="70" fill="#030035" />
 
   <text x="50%" y="50%" text-anchor="middle" class="text" dominant-baseline="middle">
     Dev en cours<tspan class="dot">.</tspan><tspan class="dot">.</tspan><tspan class="dot">.</tspan>
