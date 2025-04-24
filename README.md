@@ -26,7 +26,7 @@ Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore 
 - [📩 Contact](#-contact)
 - [📄 Licence](#-licence)
 - [🚀 Version PRO](#-version-pro)
-- [#️⃣ Languages utilisés][#-languages]
+- [#️⃣ Languages utilisés](#-languages)
 
 ---
 
