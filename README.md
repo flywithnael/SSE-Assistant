@@ -1,3 +1,4 @@
+![Activity Graphic](https://github-readme-activity-graph.vercel.app/graph?username=flywithnael&theme=tokyo-night)
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
