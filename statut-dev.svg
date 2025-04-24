@@ -1,21 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="50">
+<svg width="400" height="80" xmlns="http://www.w3.org/2000/svg">
   <style>
     .text {
-      font: bold 20px 'Montserrat', sans-serif;
+      font-family: 'Segoe UI', 'Roboto', sans-serif;
+      font-size: 24px;
       fill: #DBE64A;
     }
     .dot {
+      font-size: 32px;
       animation: blink 1.5s infinite;
     }
-    .dot:nth-child(1) { animation-delay: 0s; }
-    .dot:nth-child(2) { animation-delay: 0.2s; }
-    .dot:nth-child(3) { animation-delay: 0.4s; }@keyframes blink {
-  0%   { opacity: 0; }
-  50%  { opacity: 1; }
-  100% { opacity: 0; }
-}
+    .dot:nth-child(2) { animation-delay: 0.3s; }
+    .dot:nth-child(3) { animation-delay: 0.6s; }
 
+    @keyframes blink {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
   </style>
-  <rect width="100%" height="100%" fill="#030035"/>
-  <text x="20" y="30" class="text">Développement en cours<tspan class="dot" x="285" y="30">.</tspan><tspan class="dot" x="295" y="30">.</tspan><tspan class="dot" x="305" y="30">.</tspan></text>
+
+  <rect x="5" y="5" rx="15" ry="15" width="390" height="70" fill="#030035" />
+
+  <text x="50%" y="50%" text-anchor="middle" class="text" dominant-baseline="middle">
+    Dev en cours<tspan class="dot">.</tspan><tspan class="dot">.</tspan><tspan class="dot">.</tspan>
+  </text>
 </svg>
