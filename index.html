@@ -137,5 +137,33 @@
         <p>Contactez-nous à : <a href="mailto:translinkstudios@proton.me">translinkstudios@proton.me</a></p>
         <p><a href="https://github.com/flywithnael/SSE-Assistant" target="_blank">Visitez notre GitHub</a></p>
     </footer>
+
+    <!-- Widget Jotform -->
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function() {
+        window.AgentInitializer.init({
+          agentRenderURL: "https://eu.jotform.com/agent/019669371d42769ba623b120707f4fc7f9f1",
+          rootId: "JotformAgent-019669371d42769ba623b120707f4fc7f9f1",
+          formID: "019669371d42769ba623b120707f4fc7f9f1",
+          queryParams: ["skipWelcome=1", "maximizable=1"],
+          domain: "https://eu.jotform.com",
+          isDraggable: false,
+          background: "linear-gradient(180deg, #6C73A8 0%, #6C73A8 100%)",
+          buttonBackgroundColor: "#0066C3",
+          buttonIconColor: "#FFFFFF",
+          variant: false,
+          customizations: {
+            "greeting": "Yes",
+            "greetingMessage": "Salut ! Besoin d&#039;aide ?",
+            "openByDefault": "No",
+            "pulse": "Yes",
+            "position": "right",
+            "autoOpenChatIn": "0"
+          },
+          isVoice: false,
+        });
+      });
+    </script>
 </body>
 </html>
