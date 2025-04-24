@@ -1,4 +1,4 @@
-![Statut](https://raw.githubusercontent.com/flywithnael/SSE-Assistant/main/status/loading.svg)
+![Statut](https://raw.githubusercontent.com/flywithnael/SSE-Assistant/main/statut-dev/loading.svg)
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
