@@ -1,27 +1,107 @@
-<svg width="400" height="80" xmlns="http://www.w3.org/2000/svg">
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Statut SSE Assistant</title>
   <style>
-    .text {
-      font-family: 'Segoe UI', 'Roboto', sans-serif;
-      font-size: 28px;
-      fill: #DBE64A;
-    }
-    .dot {
-      font-size: 48px;
-      animation: blink 1.5s infinite;
-    }
-    .dot:nth-child(2) { animation-delay: 0.3s; }
-    .dot:nth-child(3) { animation-delay: 0.6s; }
+    body {
+      background-color: #030035;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      gap: 20px;
+    }.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 30px;
+  border-radius: 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  animation: pulse 2s infinite;
+  position: relative;
+  min-width: 280px;
+}
 
-    @keyframes blink {
-      0% { opacity: 0; }
-      50% { opacity: 1; }
-      100% { opacity: 0; }
-    }
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.9; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.loading {
+  background: linear-gradient(135deg, #DBE64A, #fffa88);
+  color: #030035;
+}
+
+.maintenance {
+  background: linear-gradient(135deg, #FFA500, #FF6347);
+  color: #030035;
+}
+
+.update {
+  background: linear-gradient(135deg, #00BFFF, #1E90FF);
+  color: white;
+}
+
+.available {
+  background: linear-gradient(135deg, #32CD32, #9ACD32);
+  color: white;
+}
+
+.offline {
+  background: linear-gradient(135deg, #B22222, #8B0000);
+  color: white;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  } 40% {
+    transform: scale(1);
+  }
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
   </style>
-
-  <rect x="5" y="5" rx="25" ry="25" width="390" height="70" fill="#030035" />
-
-  <text x="50%" y="50%" text-anchor="middle" class="text" dominant-baseline="middle">
-    Dev en cours<tspan class="dot">.</tspan><tspan class="dot">.</tspan><tspan class="dot">.</tspan>
-  </text>
-</svg>
+</head>
+<body>
+  <div class="badge loading">
+    Chargement en cours...
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>  <div class="badge maintenance">MAINTENANCE</div>
+  <div class="badge update">MISE À JOUR</div>
+  <div class="badge available">DISPONIBLE</div>
+  <div class="badge offline">HORS LIGNE</div>
+</body>
+</html>
