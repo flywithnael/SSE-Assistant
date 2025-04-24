@@ -111,5 +111,5 @@ Vous voulez une version plus avancée, avec plus de fonctionnalités, un design 
 
 ## #️⃣ Autres infos
 
-![image](https://github-readme-stats.vercel.app/api/top-langs/?username=flywithnael&theme=tokyo-night)
+![image](https://github-readme-stats.vercel.app/api/top-langs/?username=flywithnael&theme=tokyonight)
 ![Activity Graphic](https://github-readme-activity-graph.vercel.app/graph?username=flywithnael&theme=tokyo-night)
