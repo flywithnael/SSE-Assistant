@@ -1,4 +1,4 @@
-![Maintenance](https://img.shields.io/badge/Maintenance-%23FFD700?style=for-the-badge&logo=github&logoColor=white)
+![Maintenance](https://img.shields.io/badge/Maintenance-%23FFD700?style=for-the-badge&logo=github&logoColor=black)
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
