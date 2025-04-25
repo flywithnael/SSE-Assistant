@@ -32,7 +32,13 @@ Elle propose des **fonctionnalités exclusives**, une **interface enrichie**, et
 
 - Certaines parties du code peuvent être **obfusquées** ou protégées.
 - Les `.exe` distribués ne seront **pas libres**.
-- Pour plus d’infos ou pour obtenir un accès, contactez : **translinkstudios@proton.me**
+> Soutenez le développement de **SSE Assistant** avec la version PRO (non affilié à Seine Sud Est).
+
+<a href="https://payhip.com/b/dFDe8" target="_blank">
+  <img src="https://img.shields.io/badge/Télécharger%20la%20version%20PRO-DBE64A?style=for-the-badge&logo=payhip&logoColor=white&labelColor=030035&color=DBE64A" alt="Version PRO sur Payhip" />
+</a>
+
+![Animation](https://readme-typing-svg.demolab.com?font=Montserrat&pause=1000&color=DBE64A&center=true&vCenter=true&width=435&lines=Compatible+Tkinter+;Suivi+des+arr%C3%AAts+en+temps+r%C3%A9el+;SAE+int%C3%A9gr%C3%A9+;Pens%C3%A9+pour+les+joueurs+SSE)
 
 ---
 
