@@ -38,7 +38,7 @@ Elle propose des **fonctionnalités exclusives**, une **interface enrichie**, et
   <img src="https://img.shields.io/badge/Télécharger%20la%20version%20PRO-DBE64A?style=for-the-badge&logo=payhip&logoColor=white&labelColor=030035&color=DBE64A" alt="Version PRO sur Payhip" />
 </a>
 
-![Animation](https://readme-typing-svg.demolab.com?font=Montserrat&pause=1000&color=DBE64A&center=true&vCenter=true&width=435&lines=Compatible+Tkinter+;Suivi+des+arr%C3%AAts+en+temps+r%C3%A9el+;SAE+int%C3%A9gr%C3%A9+;Pens%C3%A9+pour+les+joueurs+SSE)
+![Animation](https://readme-typing-svg.demolab.com?font=Montserrat&pause=1000&color=030035&center=true&vCenter=true&width=435&lines=Compatible+Tkinter+;Suivi+des+arr%C3%AAts+en+temps+r%C3%A9el+;SAE+int%C3%A9gr%C3%A9+;Pens%C3%A9+pour+les+joueurs+SSE)
 
 ---
 
