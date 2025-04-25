@@ -1,6 +1,6 @@
 Statut du développement :
 
-![Service arrêté](https://img.shields.io/badge/Service%20arrêté-%23DC3545?style=for-the-badge&logo=github&logoColor=white)
+![En pause](https://img.shields.io/badge/En%20pause-%236C757D?style=for-the-badge&logo=github&logoColor=white)
 
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
