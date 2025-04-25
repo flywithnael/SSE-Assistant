@@ -30,6 +30,7 @@ Elle propose des **fonctionnalités exclusives**, une **interface enrichie**, et
 
 ## **Accès à la version PRO**
 
+Remarques :
 - Certaines parties du code peuvent être **obfusquées** ou protégées.
 - Les `.exe` distribués ne seront **pas libres**.
 > Soutenez le développement de **SSE Assistant** avec la version PRO (non affilié à Seine Sud Est).
@@ -38,7 +39,25 @@ Elle propose des **fonctionnalités exclusives**, une **interface enrichie**, et
   <img src="https://img.shields.io/badge/Télécharger%20la%20version%20PRO-DBE64A?style=for-the-badge&logo=payhip&logoColor=white&labelColor=030035&color=DBE64A" alt="Version PRO sur Payhip" />
 </a>
 
-![Animation](https://readme-typing-svg.demolab.com?font=Montserrat&pause=1000&color=030035&center=true&vCenter=true&width=435&lines=Compatible+Tkinter+;Suivi+des+arr%C3%AAts+en+temps+r%C3%A9el+;SAE+int%C3%A9gr%C3%A9+;Pens%C3%A9+pour+les+joueurs+SSE)
+<div style="background-color: #F2F2F2; padding: 20px; border-radius: 10px;">
+  <ul>
+    <li><strong>Compatible Tkinter</strong> : Profitez d'une interface graphique fluide et intuitive.</li>
+    <li><strong>Suivi des arrêts en temps réel</strong> : Suivez vos trajets et arrêts sans effort.</li>
+    <li><strong>SAE intégré</strong> : Le Système d'Aide à l'Exploitation pour une gestion professionnelle.</li>
+    <li><strong>Pensé pour les joueurs SSE</strong> : Adapté pour une utilisation optimisée sur le réseau SSE.</li>
+  </ul>
+</div>
+
+---
+
+![Animation](https://readme-typing-svg.demolab.com?font=Montserrat&pause=1000&color=DBE64A&center=true&vCenter=true&width=435&lines=Compatible+Tkinter+;Suivi+des+arr%C3%AAts+en+temps+r%C3%A9el+;SAE+int%C3%A9gr%C3%A9+;Pens%C3%A9+pour+les+joueurs+SSE)
+
+---
+
+### À propos :
+**SSE Assistant** n'est pas affilié à la société **Seine Sud-Est** ou à tout autre réseau de transport. Ce projet est entièrement indépendant et conçu pour améliorer l'expérience des utilisateurs.
+
+---
 
 ---
 
