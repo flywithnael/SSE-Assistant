@@ -1,4 +1,4 @@
-![Maintenance](https://img.shields.io/badge/Maintenance-%23FFD700?style=for-the-badge&logo=github&logoColor=white)
+![Maintenance](https://img.shields.io/badge/Maintenance-%23FFD700?style=for-the-badge&logo=github&logoColor=black)
 
 ![Terminé](https://img.shields.io/badge/Terminé-%2328A745?style=for-the-badge&logo=github&logoColor=white)
 
