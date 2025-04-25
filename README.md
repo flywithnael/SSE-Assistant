@@ -1,4 +1,4 @@
-![Terminé](https://img.shields.io/badge/Terminé-%2328A745?style=for-the-badge&logo=github&logoColor=white)
+![En pause](https://img.shields.io/badge/En%20pause-%236C757D?style=for-the-badge&logo=github&logoColor=white)
 ![SSE Assistant](banner-rounded.png)  
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
