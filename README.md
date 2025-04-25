@@ -8,7 +8,7 @@
 
 <div style="text-align: center; background-color: #F2F2F2; padding: 20px; border-radius: 10px;">
 
-![Animation](https://readme-typing-svg.demolab.com?font=Poppins&pause=1000&color=DBE64A&center=true&vCenter=true&width=435&lines=Bienvenue+sur+SSE+Assistant%21;Suivi+des+trajets+en+temps+r%C3%A9el;Gestion+des+arr%C3%AAts+en+temps+r%C3%A9el;SAE+int%C3%A9gr%C3%A9)
+![Animation](https://readme-typing-svg.demolab.com?font=Poppins&pause=1000&color=DBE64A&center=true&vCenter=true&width=435&lines=Bienvenue+sur+SSE+Assistant %21;Suivi+des+trajets+en+temps+r%C3%A9el;Gestion+des+arr%C3%AAts+en+temps+r%C3%A9el;SAE+int%C3%A9gr%C3%A9)
 </div>
 
 # 🚌 SSE Assistant
