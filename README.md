@@ -6,6 +6,9 @@ Statut du développement :
 ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
+**Actuellement disponible sur les plateformes suivantes :**
+![Aucune](https://img.shields.io/badge/Aucune-%236C757D?style=for-the-badge&logo=github&logoColor=white)
+
 **Sera disponible sur les plateformes suivantes :** 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows-10&logoColor=white) ![W11](https://img.shields.io/badge/Windows_11-0078d4?style=for-the-badge&logo=windows-11&logoColor=white) ![MacOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 
