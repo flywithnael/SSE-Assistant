@@ -4,6 +4,10 @@
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Version PRO](https://img.shields.io/badge/Version-Pro-red.svg)
 
+> ⚠️ATTENTION⚠️
+> La version PRO n'est pas en priorité dans le développement. Cette branche est donc **inutile** pour l'instant. Pour suivre l'avancée du projet et toutes les infos importantes, [retournez sur la branche principale](https://github.com/flywithnael/SSE-Assistant/tree/main). 
+> Merci de votre compréhension.
+
 **Disponible sur les plateformes suivantes :** 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
