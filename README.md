@@ -7,6 +7,7 @@ Statut du développement :
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 **Actuellement disponible sur les plateformes suivantes :**
+
 ![Aucune](https://img.shields.io/badge/Aucune-%236C757D?style=for-the-badge&logo=github&logoColor=white)
 
 **Sera disponible sur les plateformes suivantes :** 
