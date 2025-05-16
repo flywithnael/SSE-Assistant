@@ -53,7 +53,7 @@ Ce logiciel affiche les arrêts, destinations, commandes clavier et plus encore 
 - 🛰️ Intégration **SAE**
 - 🪄 Mode simplifié pour petits écrans
 - 🎯 Affichage des destinations
-- ⚡ Bientôt disponible en `.exe` sans Python !
+- [x]⚡ Bientôt disponible en `.exe` sans Python !
 
 ---
 
